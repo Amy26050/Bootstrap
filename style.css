@@ -1,0 +1,29 @@
+.bgimage{
+    background-image: url("/images/Beach_bg_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100%;
+    opacity: 90%;
+}
+p{
+    font-size: 15px;
+    font: weight 400px;;
+}
+.bgitem{
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.mspace{
+    margin-bottom: 10px;
+}
+.mspace2{
+    margin-bottom: 30px;
+}
+footer{
+    margin-top: 20px;
+    background-color: black;
+    width: 100%;
+    height:200px;
+}
