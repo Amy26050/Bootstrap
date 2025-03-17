@@ -6,6 +6,7 @@
     <title>Website 2.0</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -37,7 +38,6 @@
         <h1>Beaches Around the World</h1>
         <p>A page that can help you find wonderful beaches.</p>
       </div>
-      
       <div class="container mt-5">
         <div class="row">
           <div class="col-sm-4  ">
@@ -60,7 +60,7 @@
         <div class="container-fluid bg-dark text-white text-center pt-5 mt-5 bgitem">
             <div class="row">
             <div class="col-sm-4">
-                <h1>01</h1>
+                <h5>MAHA BEACH</h5>
                 <img src="/images/Beach 3.jpg" class="img-thumbnail mspace" alt="Cinque Terre" width="304" height="236" >
                 <div class="dropdown">
                   <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
@@ -72,10 +72,10 @@
                     <li><a class="dropdown-item" href="#">Hotels Near Beach</a></li>
                   </ul>
                 </div>
-                <div class="mspace2"></div>
+                <div class="mspace"></div>
             </div>
             <div class="col-sm-4">
-                <h1>02</h1>
+                <h5>TROPICAL BEACH</h5>
                 <img src="images/Beach 2.jpg" class="img-thumbnail mspace" alt="Cinque Terre" width="304" height="236" >
                 <div class="dropdown">
                   <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
@@ -90,7 +90,7 @@
                 
             </div>
             <div class="col-sm-4 features">
-                <h1>03</h1>
+                <h5>SUNSET PARADISE</h5>
                 <img src="/images/Beach 1.jpeg" class="img-thumbnail mspace" alt="Cinque Terre" width="304" height="236" >
                 <div class="dropdown">
                   <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
@@ -106,15 +106,37 @@
             </div>
         </div>
     </div>
-   <footer>
-    <div class="container mt-5 ">
-    <div class="row ">
-    <div class="col-sm-4  ">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-  </div></div>
-</div></footer>
+    <div class="offcanvas offcanvas-start" id="demo">
+      <div class="offcanvas-header">
+        <h1 class="offcanvas-title">BeachAway</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <p>Name</p>
+        <p>Place</p>
+        <p>Activities</p>
+        <button class="btn btn-secondary" type="button">Contact Us</button>
+      </div>
+    </div>
+    
+    <div class="container-fluid mt-3">
+      <p>Know more about us by selecting the button below.</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+        Beach Details
+      </button>
+    </div>
+    
+    <footer>
+      <div class="row ">
+        <div class="col-sm-4 text-white mspace2">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div></div>
+    </div>
+    
+    </footer>
+    
+    
 </body>
 </html>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
